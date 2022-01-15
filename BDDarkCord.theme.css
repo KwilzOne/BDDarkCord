@@ -1,0 +1,81 @@
+/**
+ * @name BDDarkCord
+ * @version ersion
+ * @description A real dark discord theme!
+ * @author whitewolf.su
+ * @authorLink https://whitewolf.su
+ * @source https://github.com/KwilzOne/BDDarkCord
+ * @website https://vk.com/lolaka40
+ * @updateUrl https://raw.githubusercontent.com/KwilzOne/BDDarkCord/whitewolf/BDDarkCord.theme.css
+ * @invite JVQDem5eYf
+**/
+/* ↓ Imports, do not touch! ↓ */
+@import url(https://whitewolf.su/projects/BDDarkCord/style.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+/* ↑ Ready! ↑ */
+
+/*  Change the standard emoji, pay attention to the correct name.
+	Correct: Apple
+	Not correct: apple, APPLE, aPpLe
+	
+	Supported Providers:
+		→ Apple
+		→ Facebook
+		→ Google
+		→ JoyPixels
+		→ Microsoft
+		→ OpenMoji
+		→ Samsung
+		→ WhatsApp
+  																				  REPLACE THIS		
+																					 ↓↓↓↓↓			*/
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
+/*																					 ↑↑↑↑↑		  	
+																				  REPLACE THIS		*/
+
+/* ↓ Your color scheme settings. ↓ */
+.theme-dark,
+.theme-light,
+:root {
+   --background-primary: #141414 !important;
+   --background-secondary: #111111 !important;
+   --background-secondary-alt: #292929 !important;
+   --background-tertiary: #0c0c0c !important;
+   --background-accent: #242424 !important;
+   --background-floating: #131313 !important;
+   --background-modifier-hover: rgba(255, 255, 255, 0.01) !important;
+   --background-modifier-active: rgba(255, 255, 255, 0.03) !important;
+   --background-modifier-selected: rgba(255, 255, 255, 0.04) !important;
+   --background-modifier-accent: hsla(0, 0%, 100%, 0.06) !important;
+   --background-message-hover: #101010 !important;
+   --channeltextarea-background: var(--background-accent) !important;
+   --deprecated-card-bg: rgba(0, 0, 0, 0.2) !important;
+   --deprecated-card-editable-bg: rgba(0, 0, 0, 0.1) !important;
+   --deprecated-text-input-bg: var(--deprecated-card-editable-bg) !important;
+   --deprecated-text-input-border: var(--background-floating) !important;
+   --deprecated-text-input-border-disabled: var(--background-tertiary) !important;
+   --activity-card-background: var(--background-primary) !important;
+   --channels-default: #9f9f9f !important;
+   --text-muted: #b6b6b6 !important;
+   --text-normal: #fbfbfb !important;
+   --text-link: #b700f9 !important;
+   --interactive-normal: #c8c8c8 !important;
+   --interactive-hover: #dcddde !important;
+   --interactive-active: #fff !important;
+   --interactive-muted: #747474 !important;
+   --header-primary: white !important;
+   --header-secondary: #c9c9c9 !important;
+   --brand-experiment: #242424 !important;
+   --brand-experiment-360: #008c00 !important;
+   --brand-experiment-560: #292929 !important;
+   --brand-experiment-600: #313131 !important;
+   --scrollbar-auto-track: #121212!important;
+   --control-brand-foreground: #808080 !important;
+   --toast-background: var(--background-primary) !important;
+   --toast-header: var(--background-tertiary) !important;
+   --toast-contents: var(--background-secondary) !important;
+   --toast-box-shadow: rgba(0, 0, 0, 0.2) !important;
+   --toast-border: var(--background-tertiary) !important;
+}
+/* ✓ The end, thanks for using it! ✓ */
