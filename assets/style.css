@@ -114,7 +114,7 @@
 
 .panels-3wFtMD,
 .tabBody-2dgbAs {
-	background-color: var(--background-primary);
+	background-color: var(--background-primary) !important;
 }
 
 .colorable-3rVGna.primaryDark-2UJt1G {
