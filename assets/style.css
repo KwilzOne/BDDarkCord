@@ -15,6 +15,11 @@
     background-color: var(--background-secondary-alt);
 }
 
+.bd-error-modal,
+.footer-31IekZ {
+	background: var(--background-primary) !important;
+}
+
 .bd-error-modal-header>h4 {
 	color: var(--text-normal);
 	margin: 5px;
